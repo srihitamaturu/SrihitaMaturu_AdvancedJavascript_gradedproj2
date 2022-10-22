@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Resume Login</title>
+    <link rel="stylesheet" href="css/login.css" />
+    <script type="text/javascript">
+        window.history.forward();
+
+        function noBack() {
+            window.history.forward();
+        }
+    </script>
+</head>
+
+<body>
+    <div class="login-box">
+        <div>
+            <label>
+                <input placeholder="User Name" id="user-input"/>
+            </label>
+        </div>
+        <br>
+        <div>
+            <label>
+                <input placeholder="Password" id="password-input"/>
+            </label>
+        </div>
+        <br>
+        <div>
+            <button id="login-button" onclick="login()">Login</button>
+        </div>
+        <div>
+            <p id="invalid-input">Invalid Username/Password</p>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/login.js"></script>
+</body>
+
+</html>
